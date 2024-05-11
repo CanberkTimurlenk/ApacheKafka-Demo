@@ -1,0 +1,6 @@
+-- Book Table
+CREATE TABLE IF NOT EXISTS Books (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    PageCount INT NOT NULL
+);
